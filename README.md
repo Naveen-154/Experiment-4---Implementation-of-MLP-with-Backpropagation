@@ -118,7 +118,7 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 ## PROGRAM 
-
+```
 
 import pandas as pd
 import sklearn
@@ -156,6 +156,9 @@ print(predictions)
 # Last thing: evaluation of algorithm performance in classifying flowers
 print(confusion_matrix(y_test,predictions))  
 print(classification_report(y_test,predictions))
+
+
+```
 
 ## OUTPUT 
 
